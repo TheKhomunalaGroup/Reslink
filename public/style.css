@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 *{
     margin: 0;
     padding: 0;
@@ -141,7 +141,8 @@ header{
     align-items: center;
     justify-content: center;
     padding: 1rem;
-=======
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -284,5 +285,25 @@ header{
     align-items: center;
     justify-content: center;
     padding: 1rem;
->>>>>>> 20ceba175cf93d7390669604ebf5756965b41999
+}
+.steps-cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.step-card{
+    width: 25dvw;
+    height: 30dvh;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
 }
