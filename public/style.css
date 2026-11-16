@@ -168,10 +168,11 @@ header{
 #residences{
     width: 100dvw;
     height: 100dvh;
+    background-color: 	#D5DCE4;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     padding: 1rem;
 }
 
