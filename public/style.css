@@ -9,10 +9,12 @@
     --secondary-color: #f0f0f0;
     --text-color: #333333;
     --card-bg: #ffffff;
+    --card-border: #cccccc;
 }
 body{
     font-family: Arial, sans-serif;
     width: 100dvw;
+    overflow-x: hidden;
 }
 section{
     width: 100dvw;
@@ -113,6 +115,9 @@ header{
     width: 30dvw;
     height: 30dvh;
     background-color: var(--card-bg);
+    border-radius: 0.5rem;
+    border: 1px solid var(--card-border);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -133,6 +138,7 @@ header{
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    gap: 1rem;
 }
 .steps-head{
     width: 100%;
@@ -142,7 +148,7 @@ header{
     padding: 1rem;
 }
 .steps-head p{
-    width: 35dvw;
+    width: 25dvw;
     text-align: start;
 }
 .steps-cards{
@@ -158,6 +164,9 @@ header{
     width: 30dvw;
     height: 30dvh;
     background-color: var(--card-bg);
+    border-radius: 0.5rem;
+    border: 1px solid var(--card-border);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -174,6 +183,7 @@ header{
     align-items: center;
     justify-content: start;
     padding: 1rem;
+    gap: 2rem;
 }
 
 .view-res{
@@ -190,6 +200,6 @@ header{
     color: var(--primary-color);
     padding: 0.5rem 1rem;
     background-color: var(--secondary-color);
-    width: 20dvw;
+    width: 14dvw;
     border-radius: 0.25rem;
 }
