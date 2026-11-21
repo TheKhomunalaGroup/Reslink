@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register</title>
+</head>
+<body>
+    <section class="register">
+         <div class="register-container">
+        <div class="container-head">
+            <div class="logo">
+                <img src="src/logo.png" alt="Logo">
+            </div>
+            <h3>Create an Account</h3>
+            <p>Already have an account? <a href="login.html">Login</a></p>
+        </div>
+        <form action="" class="register-form">
+            <div class="input-group">
+                <input type="text" id="full-name" name="full-name" placeholder="Full Name" required>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="input-group">
+                <input type="text" id="id-no" name="id-no" placeholder="Id Number" required>
+            </div>
+            <div class="input-group">
+                <input type="text" id="student-no" name="student-no" placeholder="Student Number" required>
+            </div>
+            <div class="input-group">
+                <input type="text" id="phone-no" name="phone-no" placeholder="Phone Number" required>
+            </div>
+            <div class="input-group">
+                <select id="university" name="university" placeholder="Select University" required>
+                    <option value="" disabled selected>Select University</option>
+                    <option value="university1">Wits University</option>
+                    <option value="university2">University of Johannesburg</option>
+                    <option value="university3">University of Cape Town</option>
+                    <option value="university4">University of Pretoria</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            <div class="input-group">
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password" required>
+            </div>
+        </form>
+            
+            <button type="submit">Register</button>
+    </div>
+    </section>
+   
+    
+</body>
+</html>
